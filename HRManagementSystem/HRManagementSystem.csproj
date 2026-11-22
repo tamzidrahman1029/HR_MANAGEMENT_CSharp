@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D4E22676-5F4E-4328-B1E2-9ADB55E8CF05}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>HRManagementSystem</RootNamespace>
+    <AssemblyName>HRManagementSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PreferNativeArm64>true</PreferNativeArm64>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADMIN\adminProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN\adminProfile.Designer.cs">
+      <DependentUpon>adminProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN\deptManagerSalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN\deptManagerSalary.Designer.cs">
+      <DependentUpon>deptManagerSalary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN\HRManagerSalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN\HRManagerSalary.Designer.cs">
+      <DependentUpon>HRManagerSalary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN\manageEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN\manageEmployee.Designer.cs">
+      <DependentUpon>manageEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN\manageDeptManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN\manageDeptManager.Designer.cs">
+      <DependentUpon>manageDeptManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN\manageHRManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN\manageHRManager.Designer.cs">
+      <DependentUpon>manageHRManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN\manageProjectManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN\manageProjectManager.Designer.cs">
+      <DependentUpon>manageProjectManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN\manageSalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN\manageSalary.Designer.cs">
+      <DependentUpon>manageSalary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN\projectManagerSalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN\projectManagerSalary.Designer.cs">
+      <DependentUpon>projectManagerSalary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DepartmentManager\departmentManagerDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepartmentManager\departmentManagerDashboard.Designer.cs">
+      <DependentUpon>departmentManagerDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DepartmentManager\departmentManagerProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepartmentManager\departmentManagerProfile.Designer.cs">
+      <DependentUpon>departmentManagerProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DepartmentManager\manageDepartment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepartmentManager\manageDepartment.Designer.cs">
+      <DependentUpon>manageDepartment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DepartmentManager\manageDesignation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepartmentManager\manageDesignation.Designer.cs">
+      <DependentUpon>manageDesignation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EMPLOYEE\employeeDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EMPLOYEE\employeeDashboard.Designer.cs">
+      <DependentUpon>employeeDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN\Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN\Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HRManager\HRManagerDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HRManager\HRManagerDashboard.Designer.cs">
+      <DependentUpon>HRManagerDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HRManager\HRManagerProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HRManager\HRManagerProfile.Designer.cs">
+      <DependentUpon>HRManagerProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="ProjectManager\projectManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManager\projectManage.Designer.cs">
+      <DependentUpon>projectManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManager\projectManagerDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManager\projectManagerDashboard.Designer.cs">
+      <DependentUpon>projectManagerDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManager\projectManagerProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManager\projectManagerProfile.Designer.cs">
+      <DependentUpon>projectManagerProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ADMIN\adminProfile.resx">
+      <DependentUpon>adminProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMIN\deptManagerSalary.resx">
+      <DependentUpon>deptManagerSalary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMIN\HRManagerSalary.resx">
+      <DependentUpon>HRManagerSalary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMIN\manageEmployee.resx">
+      <DependentUpon>manageEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMIN\manageDeptManager.resx">
+      <DependentUpon>manageDeptManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMIN\manageHRManager.resx">
+      <DependentUpon>manageHRManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMIN\manageProjectManager.resx">
+      <DependentUpon>manageProjectManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMIN\manageSalary.resx">
+      <DependentUpon>manageSalary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMIN\projectManagerSalary.resx">
+      <DependentUpon>projectManagerSalary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepartmentManager\departmentManagerDashboard.resx">
+      <DependentUpon>departmentManagerDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepartmentManager\departmentManagerProfile.resx">
+      <DependentUpon>departmentManagerProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepartmentManager\manageDepartment.resx">
+      <DependentUpon>manageDepartment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepartmentManager\manageDesignation.resx">
+      <DependentUpon>manageDesignation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EMPLOYEE\employeeDashboard.resx">
+      <DependentUpon>employeeDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMIN\Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HRManager\HRManagerDashboard.resx">
+      <DependentUpon>HRManagerDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HRManager\HRManagerProfile.resx">
+      <DependentUpon>HRManagerProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManager\projectManage.resx">
+      <DependentUpon>projectManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManager\projectManagerDashboard.resx">
+      <DependentUpon>projectManagerDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManager\projectManagerProfile.resx">
+      <DependentUpon>projectManagerProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

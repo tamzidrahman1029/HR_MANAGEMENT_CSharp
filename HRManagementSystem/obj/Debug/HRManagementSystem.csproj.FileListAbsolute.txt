@@ -1,0 +1,34 @@
+C:\C#\HRManagementSystem\bin\Debug\HRManagementSystem.exe.config
+C:\C#\HRManagementSystem\bin\Debug\HRManagementSystem.exe
+C:\C#\HRManagementSystem\bin\Debug\HRManagementSystem.pdb
+C:\C#\HRManagementSystem\obj\Debug\HRManagementSystem.csproj.AssemblyReference.cache
+C:\C#\HRManagementSystem\obj\Debug\HRManagementSystem.Form1.resources
+C:\C#\HRManagementSystem\obj\Debug\HRManagementSystem.Properties.Resources.resources
+C:\C#\HRManagementSystem\obj\Debug\HRManagementSystem.csproj.GenerateResource.cache
+C:\C#\HRManagementSystem\obj\Debug\HRManagementSystem.csproj.CoreCompileInputs.cache
+C:\C#\HRManagementSystem\obj\Debug\HRManagementSystem.exe
+C:\C#\HRManagementSystem\obj\Debug\HRManagementSystem.pdb
+C:\C#\HRManagementSystem\obj\Debug\Employee_management.projectManage.resources
+C:\C#\HRManagementSystem\obj\Debug\HRManagementSystem.ADMIN.manageProjectManager.resources
+C:\C#\HRManagementSystem\obj\Debug\HRManagementSystem.ADMIN.manageDeptManager.resources
+C:\C#\HRManagementSystem\obj\Debug\HRManagementSystem.ADMIN.manageHRManager.resources
+C:\C#\HRManagementSystem\obj\Debug\HRManagementSystem.HRManager.HRManagerDashboard.resources
+C:\C#\HRManagementSystem\obj\Debug\HRManagementSystem.ADMIN.manageSalary.resources
+C:\C#\HRManagementSystem\obj\Debug\HRManagementSystem.Employee.manageEmployee.resources
+C:\C#\HRManagementSystem\obj\Debug\HRManagementSystem.EMPLOYEE.employeeDashboard.resources
+C:\C#\HRManagementSystem\obj\Debug\HRManagementSystem.HR_MANAGER.Employee.resources
+C:\C#\HRManagementSystem\obj\Debug\HRManagementSystem.DepartmentManager.departmentManagerDashboard.resources
+C:\C#\HRManagementSystem\obj\Debug\HRManagementSystem.HRManager.HRManagerProfile.resources
+C:\C#\HRManagementSystem\obj\Debug\HRManagementSystem.DepartmentManager.departmentManagerProfile.resources
+C:\C#\HRManagementSystem\obj\Debug\HRManagementSystem.ProjectManager.projectManagerDashboard.resources
+C:\C#\HRManagementSystem\obj\Debug\HRManagementSystem.ProjectManager.projectManagerProfile.resources
+C:\C#\HRManagementSystem\obj\Debug\HRManagementSystem.ADMIN.adminProfile.resources
+C:\C#\HRManagementSystem\obj\Debug\HRManagementSystem.ADMIN.HRManagerSalary.resources
+C:\C#\HRManagementSystem\obj\Debug\HRManagementSystem.ADMIN.deptManagerSalary.resources
+C:\C#\HRManagementSystem\obj\Debug\HRManagementSystem.ADMIN.projectManagerSalary.resources
+C:\C#\HRManagementSystem\obj\Debug\HRManagementSystem.DepartmentManager.manageDepartment.resources
+C:\C#\HRManagementSystem\obj\Debug\HRManagementSystem.DepartmentManager.manageDesignation.resources
+D:\C#\HRManagementSystem 1\HRManagementSystem\obj\Debug\HRManagementSystem.csproj.AssemblyReference.cache
+D:\C#\HRManagementSystem 1\HRManagementSystem\obj\Debug\HRManagementSystem.exe.config
+D:\C#\HRManagementSystem 1\HRManagementSystem\obj\Debug\HRManagementSystem.exe
+D:\C#\HRManagementSystem 1\HRManagementSystem\obj\Debug\HRManagementSystem.pdb
